@@ -1,0 +1,101 @@
+customer_message,our_response
+"Hi MALLISWAR,
+
+ 
+
+Apologies for taking a while to get back to you. Attached is a relatively simple mock up for an exploration licence. I?ve highlighted the words/sentences that I feel a PEAK tool should pick up and string together, in bold, but the un-bolded text plays an important contextual role. The other factor is that it?s rare to be able to view regulation as Word document, for the most part I download a pdf, which could make a difference.
+
+ 
+
+I?ll be interested to see how this performs and if it?s useful.
+
+ 
+
+All the best with it and if you need further information or any clarification, please send me a note.
+
+ 
+
+I?ll provide the relevant pages of the Tasmanian Act as well.
+
+Regards,
+Paul","Hi Paul,
+Went through the document you sent - mock-up for an exploration license.
+You have given a few sections of an exploration license document( Mock) and highlighted a few words and sentences, in that text ( under each section), which I assume, are important to you.  So, I will try to extract these (types of)  keywords ( a set of keywords you have already sent in your previous emails)  and similar sentences in the text in the document, using various NLP techniques. 
+I assume this is the first step, towards achieving the final objective of getting the action name, type, and due date/ time frames in the Pathways documents.
+
+Please correct me, If my understanding is wrong.
+
+Thanks and Regards,
+Malliswar"
+"Hi Malliswar,
+
+ 
+
+Thank you for the email.
+
+ 
+
+What you have said is correct. While the sequence of mock sections is quite simple, relative to regulation that is actually in place, this should be a good initial test to see how the NLP extraction techniques perform. If I could suggest that you start only with sections 1 and 2 ? in other words as simply as possible and then step through the other sections one by one. I think even the nine mock sections I?ve given you will be a challenge for the AI at this early stage, but hopefully not for long.
+
+ 
+
+I hope the following makes sense, but as you know the mapping and scripting we do follows a sequence of precedent dates or relevant dates, as we call them. So, using the first two sections as an example, the first date that would be of interest is a ?lodgement due date?. This date is arbitrary, it is completely up to the applicant as to when this date is set, and when the application is lodged. Following lodgement of the application, the outcomes will be as follows:
+
+ 
+
+Section 1 ? ?lodged date? ? this date may or may not be the same date as the ?lodgement due date? but for the purposes of this exercise, let?s say it is, and we?ll use today?s date, 20 March
+So ?lodged date? is 20 March and this is the relevant date for section 2
+Section 2 ? following the ?lodged date? what we will expect to see is a notice from the Minister within 30 days of the ?lodged date?, which is 20 March, so by 19 April we will receive a notice, and this will be an ?Notice about application being properly made?. If that notice is received right on the 30-day notice period, then the date of the ?Notice about application being properly made? is 19 April and that date is recorded, and the sequence continues.
+ 
+
+You can see in section 2 that there?s additional requirements if the application isn?t properly made. I would suggest leaving these additional requirements out for the time being work on the simple sequence above first and see what the output looks like.
+
+ 
+
+If any of this doesn?t make sense, please get in touch and we can step through it in as much detail as required.
+
+ 
+
+All the best with it.  
+
+ 
+
+Kind regards
+
+ 
+
+Paul Eagleson
+
+Operations Manager","
+
+Hi Paul,
+
+Thank you for providing additional information regarding the dates and due dates. I understand how critical they are, and we will do our best to handle them using NLP. I will let you know if we need any additional information."
+"Hi All,
+
+ 
+
+Thank you for your time earlier today ? some really positive progress being made on the PEAK tool. It?s coming together really well.
+
+ 
+
+Attached is the master tenement list as discussed and requested during the meeting. The list shows the tenement (authority) type, and the status of the mapped tenements as they make their way through mapping, scripting, testing and finally go-live. To the point discussed today about consistency, and using the Tasmanian Exploration Licence as an example, the equivalent tenement in Queensland is an Exploration Permit for Minerals/Coal, the equivalent in Western Australia is an Exploration Licence and so on. As Bill explained these rights are issued under a particular state Act, so while they be the same or similar authority type and afford very similar rights, they?re administered differently under each of the applicable state Acts. It will be important for the PEAK tool to eventually be able to extract similar, but not identical ?nuggets? from each of the Acts.
+
+ 
+
+Please let me know what else you need ahead of our meeting next week.
+
+ 
+
+Kind regards
+
+ 
+
+Paul Eagleson
+
+Operations Manager","Thanks Paul,
+for sharing the Master tenements list. I am trying to make out a commonality in  names ( Exploration Permit ,  Exploration Licence etc.) for all the Tenement Types, so that the PEAK tool can apply the same logic to these Tenements to extract similar information.
+ We will go through the document in detail and come back with queries shortly.
+
+Thanks and regards,
+MALLISWAR"
